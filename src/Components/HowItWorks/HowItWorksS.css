@@ -1,0 +1,65 @@
+
+/*-------------- how it works --------------*/
+
+.how_it_works
+{
+    position: relative;
+    border-top:3px solid #8AA2C0;
+    height: 800px;
+
+    background: radial-gradient(ellipse,#DAE8F5,#FFFFFF 59.9%);
+}
+.how_it_works h1
+{
+    position: absolute;
+    top:20%;
+    left:38%;
+}
+#phone
+{
+    position: absolute;
+    left:20%;
+    top:40%;
+    width:50px;
+}
+#tv
+{
+    position: absolute;
+    left:45%;
+    top:40%;
+    width: 50px;
+}
+#users
+{
+    left:70%;
+    top:40%;
+    width: 50px;
+}
+#coin
+{
+    position: absolute;
+    left:50%;
+    top:70%;
+    width: 60px;  
+}
+#straight_arrow1
+{
+    position: absolute;
+    left:28%;
+    top:42%;
+    width: 150px;
+}
+#straight_arrow2
+{
+    position: absolute;
+    left:53%;
+    top:42%;
+    width: 150px;
+}
+#curved_arrow
+{
+    position: absolute;
+    left:60%;
+    top:50%;
+    height: 200px;
+}

@@ -1,0 +1,85 @@
+.review
+{
+    position: relative;
+    background-color: #fff;
+    border-top:3px solid #8AA2C0;
+
+}
+
+.review_form
+{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    background-color: #DAE8F5;
+}
+.review_form p
+{
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    padding-top:5%;
+}
+.review_form b
+{
+    font-size:48px;
+}
+.review_form input ,textarea
+{
+    height: 40px;
+    background-color: #DAE8F5;
+}
+.name
+{
+    position: absolute;
+    top:35%; 
+    width: 40%;   
+    padding-left: 20px;
+    border:none;
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+}
+.tel1
+{
+    position: absolute;
+    top:45%; 
+    width: 40%;   
+    padding-left: 20px;
+    border:none;
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+}
+.email1
+{
+    position: absolute;
+    top:55%; 
+    width: 40%;   
+    padding-left: 20px;
+    border:none;
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+}
+.message1
+{
+    position: absolute;
+    top:65%; 
+    width: 40%;   
+    padding-left: 20px;
+    border:none;
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+}
+.review_form button
+{
+    position: absolute;
+    top: 80%;
+    width: 40%;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+}
